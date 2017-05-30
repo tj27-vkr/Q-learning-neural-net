@@ -33,11 +33,7 @@ class Environment:
 			if done:
 				break
 				
-		print("##############################################Total reward:",total_r)
-		print('############################################################################')
-		with open(r"C:\Users\vkvig_000\Google Drive\reward.txt",'a') as r_file:
-			r_file.write(str(total_r))
-			r_file.write('\n')
+		print("Total reward:",total_r)
 		
 		
 
